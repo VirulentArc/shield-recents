@@ -1,0 +1,8 @@
+<permissions>
+    <privapp-permissions package="local.shield.recents">
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.START_TASKS_FROM_RECENTS"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+</permissions>

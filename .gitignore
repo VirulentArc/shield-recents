@@ -1,0 +1,13 @@
+/build/
+/dist/
+/references/
+/validate-device.py
+*.p12
+*.jks
+*.keystore
+*.pass
+*.idsig
+__pycache__/
+.env
+.env.*
+local.properties

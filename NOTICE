@@ -1,0 +1,28 @@
+Shield Recents
+Copyright 2026 VirulentArc
+
+This product includes software developed as part of the Android Open Source
+Project (https://source.android.com/).
+Copyright (C) 2016 The Android Open Source Project
+
+The TV card layouts, dimensions, colors, dismiss graphics, background gradient
+and adapted banner/icon rendering methods originate from AOSP TV Recents and
+were initially extracted/adapted from NVIDIA Shield 9.0.0 SystemUI for local
+compatibility work. They have been modified for this standalone Android 15
+component. The existing NVIDIA or LineageOS SystemUI binary is not distributed.
+
+Upstream layout and rendering code:
+https://android.googlesource.com/platform/frameworks/base/+/android-7.1.2_r1/packages/SystemUI/res/layout-television/recents_tv_task_card_view.xml
+https://android.googlesource.com/platform/frameworks/base/+/android-7.1.2_r1/packages/SystemUI/src/com/android/systemui/recents/tv/views/TaskCardView.java
+
+The following PNG assets match AOSP byte-for-byte:
+app/res/drawable-xhdpi/ic_cancel_white_24dp.png
+app/res/drawable-xhdpi/ic_dismiss_outline.png
+https://android.googlesource.com/platform/frameworks/base/+/android-8.1.0_r1/packages/SystemUI/res/drawable-xhdpi/
+
+Android 15 IOverviewProxy transaction IDs and task-management interfaces:
+https://android.googlesource.com/platform/frameworks/base/+/android-15.0.0_r1/
+
+NVIDIA, NVIDIA Shield and LineageOS are names/trademarks of their respective
+owners. This project is unofficial and is not endorsed by those projects or
+companies. Original copyright and trademark rights remain with their owners.
