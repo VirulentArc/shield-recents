@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="local.shield.recents.test" android:versionCode="1" android:versionName="1">
+    <uses-sdk android:minSdkVersion="35" android:targetSdkVersion="35"/>
+    <application android:label="Recents test fixture" android:theme="@android:style/Theme.Material.NoActionBar" android:allowBackup="false">
+        <activity android:name=".FixtureActivity" android:label="Recents test A" android:taskAffinity="local.shield.recents.test.a" android:exported="true"/>
+        <activity android:name=".SecondActivity" android:label="Recents test B" android:taskAffinity="local.shield.recents.test.b" android:exported="true"/>
+    </application>
+</manifest>
