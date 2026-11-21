@@ -1,0 +1,4 @@
+<resources>
+    <bool name="config_hasRecents">true</bool>
+    <string name="config_recentsComponentName" translatable="false">local.shield.recents/.RecentsTvActivity</string>
+</resources>
