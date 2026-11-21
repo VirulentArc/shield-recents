@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+     Modified for Shield Recents, Copyright 2026 VirulentArc
+     SPDX-License-Identifier: Apache-2.0 -->
+<resources><string name="font_roboto_light">sans-serif-light</string>
+    <string name="font_roboto_regular">sans-serif</string>
+    <string name="recents_tv_dismiss">Dismiss</string>
+    </resources>
